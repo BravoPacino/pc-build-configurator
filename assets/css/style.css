@@ -1,3 +1,5 @@
+[hidden] { display: none !important; }
+
 :root {
     --accent:        #812b00;
     --accent-dark:   #632100;

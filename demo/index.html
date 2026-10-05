@@ -1,0 +1,1154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Configurator demo · PC Build Configurator</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+    <div class="container header-bar">
+        <a class="brand" href="./">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>PC Build Configurator</span>
+        </a>
+            <div class="header-actions">
+                <span class="role-tag">Demo</span>
+                <a class="btn btn-ghost" href="https://github.com/BravoPacino/pc-build-configurator">View code</a>
+            </div>
+            </div>
+</header>
+<main id="main" class="site-main">
+    <div class="container flash-stack"><div class="flash flash-info" role="note">A demo of the configurator only. The parts and rules are the real ones, exported from the database, and the compatibility check that runs on the server in the full system runs in your browser here. Accounts, saving, orders, stock and the admin pages need the full PHP and MySQL system.</div></div><div class="container page">
+    <div class="page-head page-head-actions">
+        <div>
+            <h1 class="page-title">Configurator</h1>
+            <p class="page-lead">Start with the motherboard: every other part is then offered only if it fits. A part that does not fit is greyed out, with the reason under it.</p>
+        </div>
+            </div>
+
+            
+    <form class="configurator" method="post" action="#" data-validate
+          data-configurator data-check-url="api/check.php" data-first-slot="1"
+          data-first-name="Motherboard"
+          data-fit="{&quot;6&quot;:{&quot;30&quot;:{&quot;3&quot;:&quot;the parts would take 3 drive bays, more than any Case sold has&quot;,&quot;4&quot;:&quot;the parts would take 4 drive bays, more than any Case sold has&quot;},&quot;34&quot;:{&quot;3&quot;:&quot;the parts would take 3 drive bays, more than any Case sold has&quot;,&quot;4&quot;:&quot;the parts would take 4 drive bays, more than any Case sold has&quot;}}}">                
+        <div class="configurator-grid">
+            <div class="slots">
+                                                                        <section class="slot" data-slot="1"
+                             data-category="Motherboard" data-max="1" data-required="yes"
+                                                                                       >
+                        <details class="slot-box" open>
+                            <summary class="slot-head">
+                                <span class="slot-icon"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="7" width="34" height="34" rx="3"/><rect x="12.5" y="12.5" width="11" height="11" rx="1.5"/><path d="M30 12.5v13M35 12.5v13M12.5 31h23M12.5 36h14"/></svg></span>
+                                <span class="slot-title">
+                                    <span class="slot-name">Motherboard</span>
+                                    <span class="slot-tag">Step 1 · Required</span>
+                                </span>
+                                <span class="slot-choice" data-slot-choice>Nothing chosen yet</span>
+                            </summary>
+                            <div class="slot-body">
+                                                                <ul class="options">
+                                                                                                                                                        <li class="option" data-part="14"
+                                            data-name="H610M K DDR4" data-price="278.19"
+                                            data-wattage="40" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[1]" value="14">
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="7" width="34" height="34" rx="3"/><rect x="12.5" y="12.5" width="11" height="11" rx="1.5"/><path d="M30 12.5v13M35 12.5v13M12.5 31h23M12.5 36h14"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">H610M K DDR4</span>
+                                                    <span class="option-meta"><span>Gigabyte</span> · <span>LGA1700</span> · <span>DDR4</span> · <span>2 memory slots</span> · <span>1 M.2 slot</span> · <span>2 SATA ports</span> · <span>40 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 278.19</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="13"
+                                            data-name="TUF GAMING B760M-PLUS WIFI D4" data-price="647.05"
+                                            data-wattage="40" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[1]" value="13">
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="7" width="34" height="34" rx="3"/><rect x="12.5" y="12.5" width="11" height="11" rx="1.5"/><path d="M30 12.5v13M35 12.5v13M12.5 31h23M12.5 36h14"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">TUF GAMING B760M-PLUS WIFI D4</span>
+                                                    <span class="option-meta"><span>ASUS</span> · <span>LGA1700</span> · <span>DDR4</span> · <span>4 memory slots</span> · <span>2 M.2 slots</span> · <span>4 SATA ports</span> · <span>40 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 647.05</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="12"
+                                            data-name="TUF GAMING Z890-PLUS WIFI" data-price="898.97"
+                                            data-wattage="40" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[1]" value="12">
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="7" width="34" height="34" rx="3"/><rect x="12.5" y="12.5" width="11" height="11" rx="1.5"/><path d="M30 12.5v13M35 12.5v13M12.5 31h23M12.5 36h14"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">TUF GAMING Z890-PLUS WIFI</span>
+                                                    <span class="option-meta"><span>ASUS</span> · <span>LGA1851</span> · <span>DDR5</span> · <span>4 memory slots</span> · <span>4 M.2 slots</span> · <span>4 SATA ports</span> · <span>40 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 898.97</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="10"
+                                            data-name="MAG B850M MORTAR WIFI" data-price="1080.09"
+                                            data-wattage="40" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[1]" value="10">
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="7" width="34" height="34" rx="3"/><rect x="12.5" y="12.5" width="11" height="11" rx="1.5"/><path d="M30 12.5v13M35 12.5v13M12.5 31h23M12.5 36h14"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">MAG B850M MORTAR WIFI</span>
+                                                    <span class="option-meta"><span>MSI</span> · <span>AM5</span> · <span>DDR5</span> · <span>4 memory slots</span> · <span>3 M.2 slots</span> · <span>4 SATA ports</span> · <span>40 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 1,080.09</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="9"
+                                            data-name="PRO X870E-S EVO WIFI" data-price="1179.09"
+                                            data-wattage="40" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[1]" value="9">
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="7" width="34" height="34" rx="3"/><rect x="12.5" y="12.5" width="11" height="11" rx="1.5"/><path d="M30 12.5v13M35 12.5v13M12.5 31h23M12.5 36h14"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">PRO X870E-S EVO WIFI</span>
+                                                    <span class="option-meta"><span>MSI</span> · <span>AM5</span> · <span>DDR5</span> · <span>4 memory slots</span> · <span>3 M.2 slots</span> · <span>4 SATA ports</span> · <span>40 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 1,179.09</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="11"
+                                            data-name="B850 AORUS STEALTH BLACK" data-price="1599.00"
+                                            data-wattage="40" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[1]" value="11">
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="7" width="34" height="34" rx="3"/><rect x="12.5" y="12.5" width="11" height="11" rx="1.5"/><path d="M30 12.5v13M35 12.5v13M12.5 31h23M12.5 36h14"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">B850 AORUS STEALTH BLACK</span>
+                                                    <span class="option-meta"><span>Gigabyte</span> · <span>AM5</span> · <span>DDR5</span> · <span>4 memory slots</span> · <span>4 M.2 slots</span> · <span>2 SATA ports</span> · <span>40 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 1,599.00</span>
+                                            </label>
+                                        </li>
+                                                                    </ul>
+                                                            </div>
+                        </details>
+                    </section>
+                                                        <section class="slot is-locked" data-slot="2"
+                             data-category="CPU" data-max="1" data-required="yes"
+                                                                                       >
+                        <details class="slot-box">
+                            <summary class="slot-head">
+                                <span class="slot-icon"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                <span class="slot-title">
+                                    <span class="slot-name">CPU</span>
+                                    <span class="slot-tag">Step 2 · Required</span>
+                                </span>
+                                <span class="slot-choice" data-slot-choice>Choose a Motherboard first</span>
+                            </summary>
+                            <div class="slot-body">
+                                                                <ul class="options">
+                                                                            <li class="option option-none">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="" checked disabled>
+                                                <span class="option-picture is-empty" aria-hidden="true"></span>
+                                                <span class="option-main"><span class="option-name">None</span></span>
+                                            </label>
+                                        </li>
+                                                                                                                                                        <li class="option" data-part="4"
+                                            data-name="Ryzen 5 9600X" data-price="593.00"
+                                            data-wattage="88" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="4" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Ryzen 5 9600X</span>
+                                                    <span class="option-meta"><span>AMD</span> · <span>AM5</span> · <span>88 W max</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 593.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="8"
+                                            data-name="Core i5-14400F" data-price="796.00"
+                                            data-wattage="148" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="8" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Core i5-14400F</span>
+                                                    <span class="option-meta"><span>Intel</span> · <span>LGA1700</span> · <span>148 W max</span> · <span>No integrated graphics</span> · <span>Cooler included</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 796.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="5"
+                                            data-name="Ryzen 5 8600G" data-price="1079.00"
+                                            data-wattage="88" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="5" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Ryzen 5 8600G</span>
+                                                    <span class="option-meta"><span>AMD</span> · <span>AM5</span> · <span>88 W max</span> · <span>Cooler included</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 1,079.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="3"
+                                            data-name="Ryzen 7 7800X3D" data-price="1291.00"
+                                            data-wattage="162" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="3" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Ryzen 7 7800X3D</span>
+                                                    <span class="option-meta"><span>AMD</span> · <span>AM5</span> · <span>162 W max</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 1,291.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="7"
+                                            data-name="Core i9-14900K" data-price="2305.71"
+                                            data-wattage="253" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="7" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Core i9-14900K</span>
+                                                    <span class="option-meta"><span>Intel</span> · <span>LGA1700</span> · <span>253 W max</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 2,305.71</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="6"
+                                            data-name="Core Ultra 9 285K" data-price="2889.81"
+                                            data-wattage="250" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="6" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Core Ultra 9 285K</span>
+                                                    <span class="option-meta"><span>Intel</span> · <span>LGA1851</span> · <span>250 W max</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 2,889.81</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="2"
+                                            data-name="Ryzen 7 9800X3D" data-price="2940.31"
+                                            data-wattage="162" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="2" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Ryzen 7 9800X3D</span>
+                                                    <span class="option-meta"><span>AMD</span> · <span>AM5</span> · <span>162 W max</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 2,940.31</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="1"
+                                            data-name="Ryzen 9 9950X3D" data-price="3048.21"
+                                            data-wattage="230" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[2]" value="1" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" rx="3"/><rect x="18.5" y="18.5" width="11" height="11" rx="1.5"/><path d="M18 6v6M24 6v6M30 6v6M18 36v6M24 36v6M30 36v6M6 18h6M6 24h6M6 30h6M36 18h6M36 24h6M36 30h6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Ryzen 9 9950X3D</span>
+                                                    <span class="option-meta"><span>AMD</span> · <span>AM5</span> · <span>230 W max</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 3,048.21</span>
+                                            </label>
+                                        </li>
+                                                                    </ul>
+                                                            </div>
+                        </details>
+                    </section>
+                                                        <section class="slot is-locked" data-slot="3"
+                             data-category="Cooler" data-max="1" data-required="no"
+                                                                                       >
+                        <details class="slot-box">
+                            <summary class="slot-head">
+                                <span class="slot-icon"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 7h28M10 12h28M10 17h28M10 22h28M10 27h28"/><path d="M17 27v9M24 27v9M31 27v9"/><rect x="13" y="36" width="22" height="5" rx="1.5"/></svg></span>
+                                <span class="slot-title">
+                                    <span class="slot-name">Cooler</span>
+                                    <span class="slot-tag">Step 3 · Only when needed</span>
+                                </span>
+                                <span class="slot-choice" data-slot-choice>Choose a Motherboard first</span>
+                            </summary>
+                            <div class="slot-body">
+                                                                <ul class="options">
+                                                                            <li class="option option-none">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[3]" value="" checked disabled>
+                                                <span class="option-picture is-empty" aria-hidden="true"></span>
+                                                <span class="option-main"><span class="option-name">None</span></span>
+                                            </label>
+                                        </li>
+                                                                                                                                                        <li class="option" data-part="47"
+                                            data-name="Phantom Spirit 120 SE" data-price="170.00"
+                                            data-wattage="5" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[3]" value="47" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 7h28M10 12h28M10 17h28M10 22h28M10 27h28"/><path d="M17 27v9M24 27v9M31 27v9"/><rect x="13" y="36" width="22" height="5" rx="1.5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Phantom Spirit 120 SE</span>
+                                                    <span class="option-meta"><span>Thermalright</span> · <span>5 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 170.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="48"
+                                            data-name="Peerless Assassin 120 SE" data-price="180.00"
+                                            data-wattage="5" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[3]" value="48" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 7h28M10 12h28M10 17h28M10 22h28M10 27h28"/><path d="M17 27v9M24 27v9M31 27v9"/><rect x="13" y="36" width="22" height="5" rx="1.5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Peerless Assassin 120 SE</span>
+                                                    <span class="option-meta"><span>Thermalright</span> · <span>5 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 180.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="49"
+                                            data-name="AK620" data-price="280.00"
+                                            data-wattage="3" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[3]" value="49" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 7h28M10 12h28M10 17h28M10 22h28M10 27h28"/><path d="M17 27v9M24 27v9M31 27v9"/><rect x="13" y="36" width="22" height="5" rx="1.5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">AK620</span>
+                                                    <span class="option-meta"><span>DeepCool</span> · <span>3 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 280.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="50"
+                                            data-name="Dark Rock Pro 5" data-price="400.00"
+                                            data-wattage="6" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[3]" value="50" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 7h28M10 12h28M10 17h28M10 22h28M10 27h28"/><path d="M17 27v9M24 27v9M31 27v9"/><rect x="13" y="36" width="22" height="5" rx="1.5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Dark Rock Pro 5</span>
+                                                    <span class="option-meta"><span>be quiet!</span> · <span>6 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 400.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="51"
+                                            data-name="NH-D15 G2" data-price="700.00"
+                                            data-wattage="5" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[3]" value="51" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 7h28M10 12h28M10 17h28M10 22h28M10 27h28"/><path d="M17 27v9M24 27v9M31 27v9"/><rect x="13" y="36" width="22" height="5" rx="1.5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">NH-D15 G2</span>
+                                                    <span class="option-meta"><span>Noctua</span> · <span>5 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 700.00</span>
+                                            </label>
+                                        </li>
+                                                                    </ul>
+                                                            </div>
+                        </details>
+                    </section>
+                                                        <section class="slot is-locked" data-slot="4"
+                             data-category="RAM" data-max="2" data-required="yes"
+                                                                                       data-capacity-total="yes">
+                        <details class="slot-box">
+                            <summary class="slot-head">
+                                <span class="slot-icon"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="14" width="38" height="15" rx="2"/><path d="M10 19h5v5h-5zM19 19h5v5h-5zM28 19h5v5h-5z"/><path d="M9 29v4M13 29v4M17 29v4M21 29v4M28 29v4M32 29v4M36 29v4M40 29v4"/></svg></span>
+                                <span class="slot-title">
+                                    <span class="slot-name">RAM</span>
+                                    <span class="slot-tag">Step 4 · Required</span>
+                                </span>
+                                <span class="slot-choice" data-slot-choice>Choose a Motherboard first</span>
+                            </summary>
+                            <div class="slot-body">
+                                                                <ul class="options">
+                                                                            <li class="option option-none">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[4]" value="" checked disabled>
+                                                <span class="option-picture is-empty" aria-hidden="true"></span>
+                                                <span class="option-main"><span class="option-name">None</span></span>
+                                            </label>
+                                        </li>
+                                                                                                                                                        <li class="option" data-part="15"
+                                            data-name="NOX DDR4 8GB 3200" data-price="90.00"
+                                            data-wattage="5" data-capacity="8">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[4]" value="15" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="14" width="38" height="15" rx="2"/><path d="M10 19h5v5h-5zM19 19h5v5h-5zM28 19h5v5h-5z"/><path d="M9 29v4M13 29v4M17 29v4M21 29v4M28 29v4M32 29v4M36 29v4M40 29v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">NOX DDR4 8GB 3200</span>
+                                                    <span class="option-meta"><span>Apacer</span> · <span>8 GB</span> · <span>DDR4</span> · <span>1 stick</span> · <span>5 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 90.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="16"
+                                            data-name="DDR4 Desktop 16GB 3200 CL22" data-price="238.59"
+                                            data-wattage="5" data-capacity="16">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[4]" value="16" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="14" width="38" height="15" rx="2"/><path d="M10 19h5v5h-5zM19 19h5v5h-5zM28 19h5v5h-5z"/><path d="M9 29v4M13 29v4M17 29v4M21 29v4M28 29v4M32 29v4M36 29v4M40 29v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">DDR4 Desktop 16GB 3200 CL22</span>
+                                                    <span class="option-meta"><span>Lexar</span> · <span>16 GB</span> · <span>DDR4</span> · <span>1 stick</span> · <span>5 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 238.59</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="17"
+                                            data-name="AEGIS DDR4 16GB 3200" data-price="429.00"
+                                            data-wattage="5" data-capacity="16">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[4]" value="17" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="14" width="38" height="15" rx="2"/><path d="M10 19h5v5h-5zM19 19h5v5h-5zM28 19h5v5h-5z"/><path d="M9 29v4M13 29v4M17 29v4M21 29v4M28 29v4M32 29v4M36 29v4M40 29v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">AEGIS DDR4 16GB 3200</span>
+                                                    <span class="option-meta"><span>G.SKILL</span> · <span>16 GB</span> · <span>DDR4</span> · <span>1 stick</span> · <span>5 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 429.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="18"
+                                            data-name="DDR5 U-DIMM 16GB 5600" data-price="689.00"
+                                            data-wattage="5" data-capacity="16">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[4]" value="18" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="14" width="38" height="15" rx="2"/><path d="M10 19h5v5h-5zM19 19h5v5h-5zM28 19h5v5h-5z"/><path d="M9 29v4M13 29v4M17 29v4M21 29v4M28 29v4M32 29v4M36 29v4M40 29v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">DDR5 U-DIMM 16GB 5600</span>
+                                                    <span class="option-meta"><span>ADATA</span> · <span>16 GB</span> · <span>DDR5</span> · <span>1 stick</span> · <span>5 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 689.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="19"
+                                            data-name="Vengeance RGB DDR5 32GB (2x16GB) 6000 CL36" data-price="3032.00"
+                                            data-wattage="10" data-capacity="32">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[4]" value="19" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="14" width="38" height="15" rx="2"/><path d="M10 19h5v5h-5zM19 19h5v5h-5zM28 19h5v5h-5z"/><path d="M9 29v4M13 29v4M17 29v4M21 29v4M28 29v4M32 29v4M36 29v4M40 29v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Vengeance RGB DDR5 32GB (2x16GB) 6000 CL36</span>
+                                                    <span class="option-meta"><span>Corsair</span> · <span>32 GB</span> · <span>DDR5</span> · <span>2 sticks</span> · <span>10 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 3,032.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="20"
+                                            data-name="Vengeance RGB DDR5 64GB (2x32GB) 6000 CL30" data-price="6702.00"
+                                            data-wattage="10" data-capacity="64">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[4]" value="20" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="14" width="38" height="15" rx="2"/><path d="M10 19h5v5h-5zM19 19h5v5h-5zM28 19h5v5h-5z"/><path d="M9 29v4M13 29v4M17 29v4M21 29v4M28 29v4M32 29v4M36 29v4M40 29v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Vengeance RGB DDR5 64GB (2x32GB) 6000 CL30</span>
+                                                    <span class="option-meta"><span>Corsair</span> · <span>64 GB</span> · <span>DDR5</span> · <span>2 sticks</span> · <span>10 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 6,702.00</span>
+                                            </label>
+                                        </li>
+                                                                    </ul>
+                                                                    <div class="field slot-quantity">
+                                        <label for="q-4">How many</label>
+                                        <select id="q-4" name="q[4]" data-quantity disabled>
+                                                                                                                                            <option value="1" selected>× 1</option>
+                                                                                                                                            <option value="2">× 2</option>
+                                                                                    </select>
+                                    </div>
+                                                            </div>
+                        </details>
+                    </section>
+                                                        <section class="slot is-locked" data-slot="5"
+                             data-category="GPU" data-max="1" data-required="no"
+                                                                                       >
+                        <details class="slot-box">
+                            <summary class="slot-head">
+                                <span class="slot-icon"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                <span class="slot-title">
+                                    <span class="slot-name">GPU</span>
+                                    <span class="slot-tag">Step 5 · Only when needed</span>
+                                </span>
+                                <span class="slot-choice" data-slot-choice>Choose a Motherboard first</span>
+                            </summary>
+                            <div class="slot-body">
+                                                                <ul class="options">
+                                                                            <li class="option option-none">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="" checked disabled>
+                                                <span class="option-picture is-empty" aria-hidden="true"></span>
+                                                <span class="option-main"><span class="option-name">None</span></span>
+                                            </label>
+                                        </li>
+                                                                                                                                                        <li class="option" data-part="21"
+                                            data-name="GeForce RTX 5060 OC Low Profile 8GB" data-price="1662.21"
+                                            data-wattage="145" data-capacity="8">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="21" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GeForce RTX 5060 OC Low Profile 8GB</span>
+                                                    <span class="option-meta"><span>Gigabyte</span> · <span>8 GB video memory</span> · <span>145 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 1,662.21</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="22"
+                                            data-name="Dual Radeon RX 9060 XT 16GB" data-price="2315.61"
+                                            data-wattage="160" data-capacity="16">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="22" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Dual Radeon RX 9060 XT 16GB</span>
+                                                    <span class="option-meta"><span>ASUS</span> · <span>16 GB video memory</span> · <span>160 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 2,315.61</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="23"
+                                            data-name="GeForce RTX 5060 Ti 8G" data-price="2931.45"
+                                            data-wattage="180" data-capacity="8">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="23" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GeForce RTX 5060 Ti 8G</span>
+                                                    <span class="option-meta"><span>MSI</span> · <span>8 GB video memory</span> · <span>180 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 2,931.45</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="24"
+                                            data-name="PRIME Radeon RX 9070 EVO OC 16GB" data-price="3696.00"
+                                            data-wattage="220" data-capacity="16">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="24" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">PRIME Radeon RX 9070 EVO OC 16GB</span>
+                                                    <span class="option-meta"><span>ASUS</span> · <span>16 GB video memory</span> · <span>220 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 3,696.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="25"
+                                            data-name="GeForce RTX 5070 GAMING TRIO OC 12GB" data-price="4946.00"
+                                            data-wattage="250" data-capacity="12">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="25" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GeForce RTX 5070 GAMING TRIO OC 12GB</span>
+                                                    <span class="option-meta"><span>MSI</span> · <span>12 GB video memory</span> · <span>250 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 4,946.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="26"
+                                            data-name="GeForce RTX 5070 Ti INSPIRE 3X OC 16GB" data-price="6999.00"
+                                            data-wattage="300" data-capacity="16">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="26" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GeForce RTX 5070 Ti INSPIRE 3X OC 16GB</span>
+                                                    <span class="option-meta"><span>MSI</span> · <span>16 GB video memory</span> · <span>300 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 6,999.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="27"
+                                            data-name="GeForce RTX 5080 INSPIRE 3X OC 16GB" data-price="8899.00"
+                                            data-wattage="360" data-capacity="16">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="27" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GeForce RTX 5080 INSPIRE 3X OC 16GB</span>
+                                                    <span class="option-meta"><span>MSI</span> · <span>16 GB video memory</span> · <span>360 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 8,899.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="28"
+                                            data-name="GAMING GeForce RTX 5090 SOLID OC 32GB" data-price="26999.00"
+                                            data-wattage="575" data-capacity="32">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="28" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GAMING GeForce RTX 5090 SOLID OC 32GB</span>
+                                                    <span class="option-meta"><span>ZOTAC</span> · <span>32 GB video memory</span> · <span>575 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 26,999.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="29"
+                                            data-name="GeForce RTX 5090 GAMING TRIO OC 32GB" data-price="28399.00"
+                                            data-wattage="575" data-capacity="32">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[5]" value="29" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="12" width="35" height="21" rx="3"/><circle cx="21.5" cy="22.5" r="6.5"/><circle cx="21.5" cy="22.5" r="1.5"/><path d="M39 15h4.5v15H39M9 33v4M14 33v4M19 33v4M24 33v4"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GeForce RTX 5090 GAMING TRIO OC 32GB</span>
+                                                    <span class="option-meta"><span>MSI</span> · <span>32 GB video memory</span> · <span>575 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 28,399.00</span>
+                                            </label>
+                                        </li>
+                                                                    </ul>
+                                                            </div>
+                        </details>
+                    </section>
+                                                        <section class="slot is-locked" data-slot="6"
+                             data-category="Storage" data-max="4" data-required="yes"
+                                                                                       data-capacity-total="yes">
+                        <details class="slot-box">
+                            <summary class="slot-head">
+                                <span class="slot-icon"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="5" width="30" height="38" rx="3"/><circle cx="24" cy="20" r="9"/><circle cx="24" cy="20" r="1.8"/><path d="M31.5 33.5l-5.5-8M14 37.5h5"/></svg></span>
+                                <span class="slot-title">
+                                    <span class="slot-name">Storage</span>
+                                    <span class="slot-tag">Step 6 · Required</span>
+                                </span>
+                                <span class="slot-choice" data-slot-choice>Choose a Motherboard first</span>
+                            </summary>
+                            <div class="slot-body">
+                                                                <ul class="options">
+                                                                            <li class="option option-none">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[6]" value="" checked disabled>
+                                                <span class="option-picture is-empty" aria-hidden="true"></span>
+                                                <span class="option-main"><span class="option-name">None</span></span>
+                                            </label>
+                                        </li>
+                                                                                                                                                        <li class="option" data-part="30"
+                                            data-name="BarraCuda 2TB SATA HDD" data-price="265.00"
+                                            data-wattage="9" data-capacity="2000">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[6]" value="30" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="5" width="30" height="38" rx="3"/><circle cx="24" cy="20" r="9"/><circle cx="24" cy="20" r="1.8"/><path d="M31.5 33.5l-5.5-8M14 37.5h5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">BarraCuda 2TB SATA HDD</span>
+                                                    <span class="option-meta"><span>Seagate</span> · <span>2 TB</span> · <span>3.5-inch SATA</span> · <span>9 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 265.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="31"
+                                            data-name="P3 Plus 1TB PCIe Gen4 NVMe" data-price="315.00"
+                                            data-wattage="6" data-capacity="1000">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[6]" value="31" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="15" width="35" height="18" rx="2"/><path d="M4 19h5M4 24h5M4 29h5"/><rect x="13.5" y="19.5" width="8" height="9" rx="1"/><rect x="25" y="19.5" width="9.5" height="9" rx="1"/><circle cx="39.5" cy="24" r="1.6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">P3 Plus 1TB PCIe Gen4 NVMe</span>
+                                                    <span class="option-meta"><span>Crucial</span> · <span>1 TB</span> · <span>M.2</span> · <span>6 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 315.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="32"
+                                            data-name="990 PRO 1TB PCIe Gen4 NVMe" data-price="549.00"
+                                            data-wattage="7" data-capacity="1000">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[6]" value="32" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="15" width="35" height="18" rx="2"/><path d="M4 19h5M4 24h5M4 29h5"/><rect x="13.5" y="19.5" width="8" height="9" rx="1"/><rect x="25" y="19.5" width="9.5" height="9" rx="1"/><circle cx="39.5" cy="24" r="1.6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">990 PRO 1TB PCIe Gen4 NVMe</span>
+                                                    <span class="option-meta"><span>Samsung</span> · <span>1 TB</span> · <span>M.2</span> · <span>7 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 549.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="33"
+                                            data-name="SN850X 2TB PCIe Gen4 NVMe" data-price="859.00"
+                                            data-wattage="7" data-capacity="2000">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[6]" value="33" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="15" width="35" height="18" rx="2"/><path d="M4 19h5M4 24h5M4 29h5"/><rect x="13.5" y="19.5" width="8" height="9" rx="1"/><rect x="25" y="19.5" width="9.5" height="9" rx="1"/><circle cx="39.5" cy="24" r="1.6"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">SN850X 2TB PCIe Gen4 NVMe</span>
+                                                    <span class="option-meta"><span>Western Digital</span> · <span>2 TB</span> · <span>M.2</span> · <span>7 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 859.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="34"
+                                            data-name="N300 NAS 4TB SATA HDD" data-price="1490.41"
+                                            data-wattage="10" data-capacity="4000">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[6]" value="34" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="5" width="30" height="38" rx="3"/><circle cx="24" cy="20" r="9"/><circle cx="24" cy="20" r="1.8"/><path d="M31.5 33.5l-5.5-8M14 37.5h5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">N300 NAS 4TB SATA HDD</span>
+                                                    <span class="option-meta"><span>Toshiba</span> · <span>4 TB</span> · <span>3.5-inch SATA</span> · <span>10 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 1,490.41</span>
+                                            </label>
+                                        </li>
+                                                                    </ul>
+                                                                    <div class="field slot-quantity">
+                                        <label for="q-6">How many</label>
+                                        <select id="q-6" name="q[6]" data-quantity disabled>
+                                                                                                                                            <option value="1" selected>× 1</option>
+                                                                                                                                            <option value="2">× 2</option>
+                                                                                                                                            <option value="3">× 3</option>
+                                                                                                                                            <option value="4">× 4</option>
+                                                                                    </select>
+                                    </div>
+                                                            </div>
+                        </details>
+                    </section>
+                                                        <section class="slot is-locked" data-slot="7"
+                             data-category="Case" data-max="1" data-required="yes"
+                                                                                       >
+                        <details class="slot-box">
+                            <summary class="slot-head">
+                                <span class="slot-icon"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="4" width="24" height="37" rx="3"/><circle cx="24" cy="11" r="2.5"/><path d="M18 20h12M18 25h12M18 30h12M15 41v3M33 41v3"/></svg></span>
+                                <span class="slot-title">
+                                    <span class="slot-name">Case</span>
+                                    <span class="slot-tag">Step 7 · Required</span>
+                                </span>
+                                <span class="slot-choice" data-slot-choice>Choose a Motherboard first</span>
+                            </summary>
+                            <div class="slot-body">
+                                                                <ul class="options">
+                                                                            <li class="option option-none">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[7]" value="" checked disabled>
+                                                <span class="option-picture is-empty" aria-hidden="true"></span>
+                                                <span class="option-main"><span class="option-name">None</span></span>
+                                            </label>
+                                        </li>
+                                                                                                                                                        <li class="option" data-part="55"
+                                            data-name="4000D AIRFLOW" data-price="500.00"
+                                            data-wattage="6" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[7]" value="55" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="4" width="24" height="37" rx="3"/><circle cx="24" cy="11" r="2.5"/><path d="M18 20h12M18 25h12M18 30h12M15 41v3M33 41v3"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">4000D AIRFLOW</span>
+                                                    <span class="option-meta"><span>Corsair</span> · <span>2 drive bays</span> · <span>6 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 500.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="52"
+                                            data-name="CH560 Black" data-price="500.00"
+                                            data-wattage="12" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[7]" value="52" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="4" width="24" height="37" rx="3"/><circle cx="24" cy="11" r="2.5"/><path d="M18 20h12M18 25h12M18 30h12M15 41v3M33 41v3"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">CH560 Black</span>
+                                                    <span class="option-meta"><span>DeepCool</span> · <span>2 drive bays</span> · <span>12 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 500.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="54"
+                                            data-name="LANCOOL 216" data-price="500.00"
+                                            data-wattage="9" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[7]" value="54" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="4" width="24" height="37" rx="3"/><circle cx="24" cy="11" r="2.5"/><path d="M18 20h12M18 25h12M18 30h12M15 41v3M33 41v3"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">LANCOOL 216</span>
+                                                    <span class="option-meta"><span>Lian Li</span> · <span>2 drive bays</span> · <span>9 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 500.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="56"
+                                            data-name="AIR 903 MAX White" data-price="510.00"
+                                            data-wattage="12" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[7]" value="56" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="4" width="24" height="37" rx="3"/><circle cx="24" cy="11" r="2.5"/><path d="M18 20h12M18 25h12M18 30h12M15 41v3M33 41v3"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">AIR 903 MAX White</span>
+                                                    <span class="option-meta"><span>Montech</span> · <span>2 drive bays</span> · <span>12 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 510.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="57"
+                                            data-name="AIR 903 MAX Black" data-price="520.00"
+                                            data-wattage="12" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[7]" value="57" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="4" width="24" height="37" rx="3"/><circle cx="24" cy="11" r="2.5"/><path d="M18 20h12M18 25h12M18 30h12M15 41v3M33 41v3"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">AIR 903 MAX Black</span>
+                                                    <span class="option-meta"><span>Montech</span> · <span>2 drive bays</span> · <span>12 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 520.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="53"
+                                            data-name="CH560 White" data-price="600.00"
+                                            data-wattage="12" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[7]" value="53" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="12" y="4" width="24" height="37" rx="3"/><circle cx="24" cy="11" r="2.5"/><path d="M18 20h12M18 25h12M18 30h12M15 41v3M33 41v3"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">CH560 White</span>
+                                                    <span class="option-meta"><span>DeepCool</span> · <span>2 drive bays</span> · <span>12 W</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 600.00</span>
+                                            </label>
+                                        </li>
+                                                                    </ul>
+                                                            </div>
+                        </details>
+                    </section>
+                                                        <section class="slot is-locked" data-slot="8"
+                             data-category="PSU" data-max="1" data-required="yes"
+                             data-power-limit="yes"                             data-power-share="80"                             >
+                        <details class="slot-box">
+                            <summary class="slot-head">
+                                <span class="slot-icon"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                <span class="slot-title">
+                                    <span class="slot-name">PSU</span>
+                                    <span class="slot-tag">Step 8 · Required</span>
+                                </span>
+                                <span class="slot-choice" data-slot-choice>Choose a Motherboard first</span>
+                            </summary>
+                            <div class="slot-body">
+                                                                <ul class="options">
+                                                                            <li class="option option-none">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="" checked disabled>
+                                                <span class="option-picture is-empty" aria-hidden="true"></span>
+                                                <span class="option-main"><span class="option-name">None</span></span>
+                                            </label>
+                                        </li>
+                                                                                                                                                        <li class="option" data-part="35"
+                                            data-name="Gamma P550 550W" data-price="159.00"
+                                            data-wattage="550" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="35" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">Gamma P550 550W</span>
+                                                    <span class="option-meta"><span>Ocypus</span> · <span>550 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 159.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="36"
+                                            data-name="AP Series 750W" data-price="179.00"
+                                            data-wattage="750" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="36" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">AP Series 750W</span>
+                                                    <span class="option-meta"><span>AIGO</span> · <span>750 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 179.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="37"
+                                            data-name="GAMERSTORM PFX PF500X 500W" data-price="179.00"
+                                            data-wattage="500" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="37" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GAMERSTORM PFX PF500X 500W</span>
+                                                    <span class="option-meta"><span>DeepCool</span> · <span>500 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 179.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="40"
+                                            data-name="GP-P650SS 650W" data-price="218.00"
+                                            data-wattage="650" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="40" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">GP-P650SS 650W</span>
+                                                    <span class="option-meta"><span>Gigabyte</span> · <span>650 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 218.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="41"
+                                            data-name="MAG A650BN 650W" data-price="256.00"
+                                            data-wattage="650" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="41" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">MAG A650BN 650W</span>
+                                                    <span class="option-meta"><span>MSI</span> · <span>650 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 256.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="42"
+                                            data-name="CX550 550W 80+ Bronze" data-price="260.00"
+                                            data-wattage="550" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="42" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">CX550 550W 80+ Bronze</span>
+                                                    <span class="option-meta"><span>Corsair</span> · <span>550 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 260.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="38"
+                                            data-name="C750 750W Bronze ATX3.1" data-price="299.00"
+                                            data-wattage="750" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="38" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">C750 750W Bronze ATX3.1</span>
+                                                    <span class="option-meta"><span>NZXT</span> · <span>750 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 299.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="44"
+                                            data-name="MWE GOLD V3 850W ATX3.1" data-price="349.00"
+                                            data-wattage="850" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="44" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">MWE GOLD V3 850W ATX3.1</span>
+                                                    <span class="option-meta"><span>Cooler Master</span> · <span>850 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 349.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="43"
+                                            data-name="P650G PG5 650W ATX3.1" data-price="349.00"
+                                            data-wattage="650" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="43" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">P650G PG5 650W ATX3.1</span>
+                                                    <span class="option-meta"><span>Gigabyte</span> · <span>650 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 349.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="45"
+                                            data-name="RM850e 850W 80+ Gold" data-price="535.59"
+                                            data-wattage="850" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="45" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">RM850e 850W 80+ Gold</span>
+                                                    <span class="option-meta"><span>Corsair</span> · <span>850 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 535.59</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="46"
+                                            data-name="RM1000E 1000W ATX3.1" data-price="599.00"
+                                            data-wattage="1000" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="46" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">RM1000E 1000W ATX3.1</span>
+                                                    <span class="option-meta"><span>Corsair</span> · <span>1000 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 599.00</span>
+                                            </label>
+                                        </li>
+                                                                                                                    <li class="option" data-part="39"
+                                            data-name="PQ1200G 1200W Fully Modular" data-price="749.00"
+                                            data-wattage="1200" data-capacity="0">
+                                            <label class="option-label">
+                                                <input type="radio" name="c[8]" value="39" disabled>
+                                                <span class="option-picture"><svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="9"/><path d="M21 18.5l-3.5 6.5h5l-2.5 6"/><path d="M35.5 16v5M35.5 27v5"/></svg></span>
+                                                <span class="option-main">
+                                                    <span class="option-name">PQ1200G 1200W Fully Modular</span>
+                                                    <span class="option-meta"><span>DeepCool</span> · <span>1200 W output</span></span>
+                                                    <span class="option-reason" data-reason hidden></span>
+                                                </span>
+                                                <span class="option-price">RM 749.00</span>
+                                            </label>
+                                        </li>
+                                                                    </ul>
+                                                            </div>
+                        </details>
+                    </section>
+                            </div>
+
+            <aside class="build-summary" aria-labelledby="summary-title">
+                <h2 class="summary-title" id="summary-title">Summary</h2>
+                <dl class="summary-totals" data-totals>
+                    <div><dt>Total price</dt><dd data-total="price">RM 0.00</dd></div>
+                    <div><dt>Power</dt><dd data-total="power">0 W</dd></div>
+                                                                                                                                                                                                                                        <div><dt>RAM in total</dt><dd data-total="capacity-4">–</dd></div>
+                                                                                                                                                                        <div><dt>Storage in total</dt><dd data-total="capacity-6">–</dd></div>
+                                                                                                                                                    </dl>
+                <div class="summary-verdicts" data-verdicts aria-live="polite">
+                        <div class="verdict-summary is-invalid">
+        <strong>Not valid: this configuration could not be ordered yet.</strong>
+                    <span>Still missing: Motherboard, CPU, RAM, Storage, Case, PSU.</span>
+            </div>
+        <ul class="verdicts">
+                    <li class="verdict verdict-skip" data-rule="1">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">CPU socket must match the motherboard</span>
+                                        <span class="verdict-detail">Checked once the CPU and the Motherboard are chosen.</span>
+                </span>
+            </li>
+                    <li class="verdict verdict-skip" data-rule="2">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">Memory type must match the motherboard</span>
+                                        <span class="verdict-detail">Checked once the RAM and the Motherboard are chosen.</span>
+                </span>
+            </li>
+                    <li class="verdict verdict-skip" data-rule="3">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">Total power must stay within the safe load of the power supply</span>
+                                        <span class="verdict-detail">Checked once the PSU is chosen.</span>
+                </span>
+            </li>
+                    <li class="verdict verdict-skip" data-rule="4">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">A processor without integrated graphics needs a graphics card</span>
+                                        <span class="verdict-detail">Checked once the CPU is chosen.</span>
+                </span>
+            </li>
+                    <li class="verdict verdict-skip" data-rule="5">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">A processor sold without a cooler needs one</span>
+                                        <span class="verdict-detail">Checked once the CPU is chosen.</span>
+                </span>
+            </li>
+                    <li class="verdict verdict-skip" data-rule="6">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">Memory sticks must fit the memory slots</span>
+                                        <span class="verdict-detail">Checked once the Motherboard is chosen.</span>
+                </span>
+            </li>
+                    <li class="verdict verdict-skip" data-rule="7">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">NVMe drives must fit the M.2 slots</span>
+                                        <span class="verdict-detail">Checked once the Motherboard is chosen.</span>
+                </span>
+            </li>
+                    <li class="verdict verdict-skip" data-rule="8">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">Hard disks must fit the SATA ports</span>
+                                        <span class="verdict-detail">Checked once the Motherboard is chosen.</span>
+                </span>
+            </li>
+                    <li class="verdict verdict-skip" data-rule="9">
+                <span class="verdict-badge">Skipped</span>
+                <span class="verdict-text">
+                    <span class="verdict-name">Hard disks must fit the drive bays</span>
+                                        <span class="verdict-detail">Checked once the Case is chosen.</span>
+                </span>
+            </li>
+                    </ul>
+                    </div>
+                <div class="summary-save">
+                    <div class="field"><label for="f-name">Name this configuration</label><input type="text" required maxlength="100" autocomplete="off" data-error-required="Give the configuration a name." id="f-name" name="name" value="" aria-describedby="f-name-hint f-name-error"><div class="field-hint" id="f-name-hint">Saved configurations are listed under My Configurations.</div><div class="field-error" id="f-name-error"></div></div>                    <div class="form-actions">
+                        <button type="submit" name="action" value="check" class="btn btn-ghost" formnovalidate data-no-script>Check</button>
+                        <button type="submit" name="action" value="save" class="btn btn-ghost">Save configuration</button>
+                                                <button type="submit" name="action" value="order" class="btn btn-primary" data-order-button disabled>
+                            Save and order                        </button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </form>
+    </div>
+</main>
+<footer class="site-footer">
+    <div class="container footer-bar">
+        <strong>PC Build Configurator</strong>
+        <span>Penang, Malaysia</span>
+        <span>+60 4-000 0000</span>
+        <span>Monday to Saturday, 10am to 8pm</span>
+    </div>
+</footer>
+<script src="engine.js" defer></script>
+<script src="demo.js" defer></script>
+<script src="../assets/js/validate.js" defer></script>
+<script src="../assets/js/configurator.js" defer></script>
+</body>
+</html>

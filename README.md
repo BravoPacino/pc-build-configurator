@@ -1,5 +1,7 @@
 # PC Build Configurator and Inventory Management System
 
+**Demo:** https://bravopacino.github.io/pc-build-configurator/ (the configurator only, running in your browser; see [The demo](#the-demo))
+
 A web system for a shop that sells custom-built desktop PCs. Customers assemble
 a configuration from the shop's components and the system checks, as they go,
 that the parts work together: the processor fits the motherboard, the memory
@@ -19,6 +21,23 @@ Plain HTML, CSS, JavaScript, PHP and MySQL. No framework.
 | Each rule reports why it passes | The shop's rule list |
 |---|---|
 | ![A finished configuration with running totals and each rule marked as passed](docs/checks.webp) | ![The admin rules page listing nine compatibility rules](docs/rules.webp) |
+
+## The demo
+
+GitHub Pages cannot run PHP or MySQL, so the demo is the configurator on its own:
+choose a motherboard, then every other part is offered only if it fits, with the
+reason under the ones that do not.
+
+- `demo/index.html` is the configurator page as the PHP system renders it, saved once.
+- `demo/data.json` holds the real categories, parts and compatibility rules,
+  exported from the database by `demo/export.php`.
+- `demo/engine.js` is a JavaScript copy of the rule engine in `includes/rules.php`.
+  It answers the page's call to `api/check.php` in the browser, and the page's own
+  `assets/js/configurator.js` runs unchanged.
+- Checked against the PHP engine on 1,500 random builds, it gave the same answer
+  every time: every verdict, every reason a part does not fit, and every total.
+
+Accounts, saving, orders, stock and the admin pages need the full system below.
 
 ## Running it on XAMPP
 
